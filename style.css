@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+button{
+    transition: all 0.75s ease-in-out;
+  border-radius: 5em;
+  background-color: pink;
+  border: 0px;
+  box-shadow: 0px 0px 0;
+}
+
+button:hover{
+  transition: all 0.75s ease-in-out;
+  background-color: #ff8a9d;
+  border: 5px;
+  box-shadow: 5px 5px 0;
+}
+#container {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    background-color: blue;
+  border-radius: 3rem;
+}
+
+
+#container:onclick{
+  transition: all 3.5s ease-in-out;
+  margin: auto;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    background-color: #ff0000;
+  border-radius: 3rem;
+}
+
+#button {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+}
